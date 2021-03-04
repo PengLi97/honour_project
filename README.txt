@@ -18,6 +18,13 @@ GUID:
 
   * More detail in report
 
+Modification for code:
+    If use want see how fight to each other, user have to modify this two variables' value
+        self.ai_state =========> -1 ALL player is AI
+                      =========> 1 AI is landlord and farmer is smart hard-code
+                      =========> 0 AI is farmer and landlord is smart hard-code
+        self.noob     =========>True
+
 NOTICE:
   Carleton University 2020 Fall term
   course: COMP 4905 Honour project
